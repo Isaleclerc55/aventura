@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aventura em Nova York</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #007BFF;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section img {
+            max-width: 100%;
+            border-radius: 8px;
+            display: block;
+            margin-bottom: 10px;
+        }
+        .section p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Aventura por Nova York</h1>
+
+        <!-- Seção sobre Times Square -->
+        <div class="section">
+            <h2>Times Square</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Times_Square%2C_New_York_City_%28July_2020%29_%28cropped%29.jpg/800px-Times_Square%2C_New_York_City_%28July_2020%29_%28cropped%29.jpg" alt="Times Square">
+            <p>Times Square é uma das áreas mais vibrantes de Nova York, conhecida por seus enormes painéis de LED e pela agitação constante. É um centro de entretenimento e comércio, frequentemente visitado por turistas e moradores locais.</p>
+        </div>
+
+        <!-- Seção sobre Central Park -->
+        <div class="section">
+            <h2>Central Park</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Central_Park_South_Entrance.jpg/800px-Central_Park_South_Entrance.jpg" alt="Central Park">
+            <p>Central Park é um grande parque urbano no meio de Manhattan. É um oásis verdejante oferecendo uma pausa tranquila das ruas movimentadas da cidade. O parque oferece trilhas para caminhadas, lagos e áreas de piquenique.</p>
+        </div>
+
+        <!-- Seção sobre Estátua da Liberdade -->
+        <div class="section">
+            <h2>Estátua da Liberdade</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Statue_of_Liberty_7.jpg/800px-Statue_of_Liberty_7.jpg" alt="Estátua da Liberdade">
+            <p>A Estátua da Liberdade é um dos monumentos mais icônicos dos Estados Unidos. Localizada na Ilha da Liberdade, simboliza a liberdade e a democracia, e é um destino popular para turistas que visitam Nova York.</p>
+        </div>
+
+        <!-- Seção sobre Empire State Building -->
+        <div class="section">
+            <h2>Empire State Building</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Empire_State_Building_%28New_York%29_%28October_2010%29_%28cropped%29.jpg/800px-Empire_State_Building_%28New_York%29_%28October_2010%29_%28cropped%29.jpg" alt="Empire State Building">
+            <p>O Empire State Building é um arranha-céu emblemático localizado no centro de Manhattan. Com uma vista panorâmica deslumbrante da cidade a partir de seus observatórios, é um dos destinos turísticos mais populares em Nova York.</p>
+        </div>
+
+        <!-- Seção sobre Ponte do Brooklyn -->
+        <div class="section">
+            <h2>Ponte do Brooklyn</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Brooklyn_Bridge_%28New_York_City%29_%28November_2012%29.jpg/800px-Brooklyn_Bridge_%28New_York_City%29_%28November_2012%29.jpg" alt="Ponte do Brooklyn">
+            <p>A Ponte do Brooklyn é uma das pontes mais conhecidas de Nova York, ligando Manhattan ao Brooklyn. É famosa por sua arquitetura imponente e oferece uma bela vista do horizonte de Manhattan.</p>
+        </div>
+    </div>
+</body>
+</html>
